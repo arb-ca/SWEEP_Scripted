@@ -1,0 +1,9 @@
+
+.env
+data/bsdb_data_20250610_133027.geojson
+/data/bsdb_datasets
+
+/.quarto/
+/outputs
+scratch.py
+scratch.py

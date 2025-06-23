@@ -1,0 +1,14 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Structure Wildfire Emissions Estimator and Predictor"
+  navbar:
+    right:
+      - text: "Demo"
+        href: SWEEP_vignette.html
+
+format:
+  html:
+    theme: cosmo  # or another theme of your choice
