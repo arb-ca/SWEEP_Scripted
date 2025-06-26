@@ -93,10 +93,10 @@ def sweep_estimator(
         Emission factor source for estimating emissions.
 
     frame_factor : {'HOLDER', 'CARB'} or float, default='HOLDER'
-        Frame fuel load factor (kg/m²). Use standard presets or a custom numeric value.
+        Frame fuel load factor (lb/ft²). Use standard presets or a custom numeric value.
 
     contents_factor : {'HOLDER', 'CARB'} or float, default='HOLDER'
-        Contents fuel load factor (kg/m²). Use standard presets or a custom numeric value.
+        Contents fuel load factor (lb/ft²). Use standard presets or a custom numeric value.
 
     structure_consumption : {'HOLDER', 'CARB', 'DINS3', 'DINS5'}, default='DINS3'
         Method for estimating percentage of structure consumed by fire.
