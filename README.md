@@ -64,6 +64,7 @@ Ensure the following libraries are installed:
 - python-dotenv==1.0.0
 - typing_extensions
 - matplotlib>=3.0.0
+- arcgis
 
 You can install these dependencies by running:
 
@@ -80,6 +81,13 @@ This tool estimates structure fire emissions from the California Burned Structur
 Users can rely on built-in defaults for emission factors (EFs), frame/contents fuel load factors, and consumption factors, or supply custom values for each.
 
 ### Importing the estimator
+
+To run this in the terminal window, first activate Python. (To later exit out of Python in the terminal, enter 'exit()'.)
+```
+python
+```
+
+After activating Python, you can now run python code in the terminal. Below, load up the estimator function from the `estimator_main` module.
 
 ```bash
 from sweep.estimator_main import sweep_estimator

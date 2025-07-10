@@ -7,3 +7,4 @@ data/bsdb_data_20250610_133027.geojson
 /outputs
 scratch.py
 scratch.py
+/sweep/__pycache__/
